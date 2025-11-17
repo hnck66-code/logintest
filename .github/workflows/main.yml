@@ -20,9 +20,11 @@ jobs:
         php-version: '8.1'
         extensions: mysqli
 
+    - name: Create composer.json
+      run: echo '{}' > composer.json
+
     - name: Install PHPUnit
-      run: |
-        composer require phpunit/phpunit --dev
+      run: composer require phpunit/phpunit --dev
 
     - name: Run Tests
       run: vendor/bin/phpunit
