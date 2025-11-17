@@ -1,10 +1,9 @@
-# Project Login & Registrasi
+# Login & Registrasi Test Pertemuan 10 (individu)
 
-Proyek ini merupakan hasil kerja sama *Kelompok 5*, yang terdiri dari:  
-- Hanif Fathoni  701230153
-- Dimas Zulkhoir 791230151 
+Proyek ini merupakan hasil kerja sama *Kelompok 5*
+- Hanif Fathoni  701230153 
 
-📅 *Tanggal dibuat:* 17 September 2025
+*Tanggal dibuat:* 17 September 2025
 
 ---
 
@@ -37,4 +36,5 @@ Tujuannya adalah untuk mengembangkan sistem informasi berbasis web yang berfokus
 
 ---
 
-✍ *Dibuat dengan 1liter americano 4 shot oleh Kelompok 5.*
+
+✍ *Dibuat dengan 1liter americano 4 shot beserta kemalasan-malasannya si Hanif.*
