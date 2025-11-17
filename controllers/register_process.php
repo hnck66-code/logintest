@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../config/database.php";
+require_once __DIR__ . '/../config/database.php';
 require_once "../utils/csrf.php";
 require_once "../utils/session_handler.php";
 
@@ -70,3 +70,4 @@ if ($ins->execute()) {
     header("Location: ../views/register.php");
     exit;
 }
+
