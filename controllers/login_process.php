@@ -1,7 +1,7 @@
 <?php
 // controllers/login_process.php
 session_start();
-require_once "../config/database.php";
+require_once __DIR__ . '/../config/database.php';
 require_once "../utils/csrf.php";
 require_once "../utils/session_handler.php";
 
@@ -161,4 +161,5 @@ try {
 $_SESSION['flash'] = ['type' => 'error', 'message' => 'Email atau password salah.'];
 header("Location: ../views/login.php");
 exit;
+
 
